@@ -1,0 +1,16 @@
+# --- Data (do not push large datasets) ---
+data/
+*.csv
+
+# --- Jupyter ---
+.ipynb_checkpoints/
+
+# --- Model artifacts ---
+*.pkl
+*.joblib
+
+# --- Environments ---
+venv/
+.conda/
+.env/
+__pycache__/
